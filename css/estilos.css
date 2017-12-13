@@ -169,3 +169,32 @@ header a{
     }
 
  }
+
+/*creando el footer*/
+
+footer div
+{
+	box-sizing: border-box;
+	float:left;
+	height: 100%;
+	background-color: #C6d5c5;
+	padding: 2%;
+	text-align: center;
+	height: 140px;
+}
+
+.c{
+    width: 25%;
+}
+
+.t{
+    width: 25%;
+}
+
+.r{
+    width: 25%;
+}
+
+.d{
+    width: 25%;
+}
