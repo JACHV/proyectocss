@@ -198,3 +198,35 @@ footer div
 .d{
     width: 25%;
 }
+
+/*creando el menu*/
+
+
+h1{
+    text-align: left;
+    position: absolute;
+    top: 15px;
+    margin-left: 10px;
+    color: #fff;
+    display: flex;
+}
+
+a{
+    float: right;
+    margin-right: 25px;
+    position: relative;
+    top: 4px;
+    color: #fff;
+    text-decoration-line: underline;
+    margin-top: -2px;
+    }
+
+p{
+    text-align: left;
+}
+.c{
+    text-align: justify;
+ }
+.t{
+    text-align: center;
+}
