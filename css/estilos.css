@@ -230,3 +230,39 @@ p{
 .t{
     text-align: center;
 }
+
+/*creando la animacion*/
+
+
+#izquierda img:hover{
+    transform: rotate(10deg);
+   }
+
+#izquierda img{
+     box-shadow: #82c3a6;
+    border: 2px;
+}
+
+#derecha img:hover{
+    transform: translate(-5px, -20px);
+    border: 2px groove;
+    box-shadow: #82c3a6;
+
+   }
+
+
+body{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-top: 150%;
+    width: 300%
+  }
+
+  to {
+    margin-bottom: -5%;
+    width: 100%;
+  }
+}
