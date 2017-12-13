@@ -1,0 +1,135 @@
+@import url(menu.css);
+@import url(media.css);
+@import url(bordes.css);
+@import url(animacion.css);
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+*
+{
+	margin:0;
+}
+
+body{
+	background: #02010a;
+	color: black;
+	font-size: 16px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+#wrapper
+{
+	width: 900px;
+	margin: 0 auto;
+}
+
+#encabezado{
+    width: 900px;
+    margin: 0 auto;
+}
+
+header
+{
+	margin: 0 auto;
+	height: 1em;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: left;
+	background-color: #5b7989;
+}
+
+header h1 {
+	padding-left: 1%;
+}
+
+article
+{
+	box-sizing: border-box;
+	float:left;
+	height: 100%;
+	background-color: grey;
+	padding: 2%;
+	text-align: center;
+	height: 200px;
+
+}
+
+	#columna1
+	{
+	background-color: #82c3a6;
+	width: 100%;
+
+	}
+	#columna2
+	{
+	background-color: #d5c75f;
+	width: 50%;
+	}
+	#columna3
+	{
+	background-color: #d5c75f;
+	width: 50%;
+	}
+
+@media screen and (max-width: 900px){
+
+	#wrapper, #encabezado, #pie
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 640px){
+
+	#wrapper, #encabezado, #pie
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 480px){
+
+#wrapper, #pie, #encabezado
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#columna1
+	{
+	width: 100%;
+	}
+	#columna2
+	{
+	width: 100%;
+	}
+	#columna3
+	{
+	width: 100%;
+	}
+    .c{
+        width: 100%;
+    }
+    .t{
+        width: 100%;
+    }
+    .r{
+        width: 100%;
+    }
+    .d{
+        width: 100%;
+    }
+
+	}
+}
+
+#columna2, #columna3{
+    display: flex;
+    justify-content: center;
+        }
+
+#pie{
+    clear: both;
+}
