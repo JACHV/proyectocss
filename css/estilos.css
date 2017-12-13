@@ -133,3 +133,39 @@ article
 #pie{
     clear: both;
 }
+
+
+/*border*/
+
+header a{
+    text-shadow: 1px 1px #02010a;
+    }
+
+#encabezado{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+@media screen and (max-width: 480px), @media screen and (max-width: 640px){
+    #encabezado{
+        width: 100%;
+        margin: auto;
+        height: 130px;
+    }
+
+    h1{
+        text-align: center;
+        vertical-align: super;
+        position: relative;
+        display: flex;
+    }
+
+    #menu{
+        text-align: center;
+        vertical-align: text-bottom;
+        margin-bottom: 30px 20px;
+        margin-top: 20px;
+    }
+
+ }
